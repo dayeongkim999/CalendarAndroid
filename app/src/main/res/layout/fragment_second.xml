@@ -13,8 +13,8 @@
       android:layout_margin="20dp">
       <Button
           android:id="@+id/button_second"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
           android:text="@string/next"
           android:layout_gravity="center"/>
       <LinearLayout
@@ -27,7 +27,7 @@
           android:paddingRight="10dp">
 
           <EditText
-              android:layout_width="340dp"
+              android:layout_width="300dp"
               android:layout_height="wrap_content"
               android:background="@android:color/transparent"
               android:hint="제목" />
@@ -60,7 +60,7 @@
               android:layout_height="16dp"
               android:src="@drawable/clock"/>
           <TextView
-              android:layout_width="300dp"
+              android:layout_width="280dp"
               android:layout_height="wrap_content"
               android:text="하루 종일"
               android:textStyle="bold"
